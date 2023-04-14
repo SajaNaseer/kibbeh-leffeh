@@ -1,0 +1,128 @@
+@font-face {
+    font-family:SomarSans-Bold ;
+    src: url(../fonts/SomarSans-Bold.otf);
+}
+@font-face {
+    font-family:SomarSans-SemiBold ;
+    src: url(../fonts/SomarSans-SemiBold.otf);
+}
+@font-face {
+    font-family:SomarSans-Regular;
+    src: url(../fonts/SomarSans-Regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color: #fff;
+    --black-color:#000;
+    --border-color:#C36535;
+    --main-color:#779905;
+}
+body{
+    background-color: #FAFDF2; 
+    background-image: linear-gradient(20deg, #daf08b , #fffffe);
+    width: 100%;
+}
+/* section-1 */
+.content-section1{
+    padding-top: 5%;
+    text-align: center;
+}
+.title-page{
+    font-size: 28px;
+    color: var(--black-color);
+    font-family:SomarSans-Regular;
+    padding-top: 20px;
+    text-align: center;
+}
+/* section-2 */
+.content-section-2{
+    text-align: center;
+}
+.main-part{
+    font-family:SomarSans-SemiBold ;
+    font-size: 25px;
+    color: var(--main-color);
+}
+.part1{
+    padding-top: 30px;
+}
+.line{
+    margin-top: -65px;
+}
+.part2{
+    margin-top: -34px;
+}
+/* section-3 */
+.details-content3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:20px;
+}
+.content-box{
+    border: 2px solid var(--border-color);
+    width: 190px;
+    border-radius: 20px;
+    margin-top: 95px;
+    height: 230px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.type-eating{
+    transform: translate(0, -90px);
+    width: 95%;
+}
+.content{
+    margin-top: -95px;
+    padding: 5px;
+}
+.title-img{
+    font-size: 24px;
+    color: var(--main-color);
+    font-family:SomarSans-Bold ;
+}
+.main-title{
+    font-size: 16px;
+    color: var(--black-color);
+    font-family:SomarSans-Regular;
+}
+/* section-4 */
+.last-content{
+    margin-top: -20px;
+    background-image: url(../imges/ورق\ خلفية.png);
+    background-repeat: no-repeat;
+    background-position: -23px -10px;
+}
+.benifet{
+    color: var(--black-color);
+    font-size: 20px;
+    font-family:SomarSans-Regular;
+    padding-bottom: 10px;
+}
+.order-Btn{
+    padding-top:23px;
+    padding-bottom: 20px;
+}
+.btn-whats-app{
+    border: none;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    font-size: 36px;
+    font-family:SomarSans-Bold ;
+    padding: 6px 32px;
+    border-radius: 15px;
+}
+.btn-whats-app:hover{
+    background-color:#566c0e;
+}
+.background{
+    opacity: 0.9;
+    transform: translate(-24px, -2px);
+}
+.waraka{
+    margin-right: -24px;
+}
